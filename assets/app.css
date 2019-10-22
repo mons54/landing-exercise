@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 40px;
+  color: darkgray;
+  text-shadow: 0 0 4px #000;
+}
+
+h2, ul {
+  margin: 0;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.page-header {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.page-header img {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.group h2 {
+  background-color: brown;
+  border-radius: 10px;
+  padding: 6px 20px;
+  color: blanchedalmond;
+  margin-bottom: 20px;
+}
+
+.group ul {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: honeydew;
+  font-size: 20px;
+}
